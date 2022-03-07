@@ -22,7 +22,7 @@ Visual approaching to the target object is crucial to the subsequent manipulatin
 - **100** image sequences are contained, which are captured from a flying UAM platform.  
 - **16** kinds of **objects** are involved, and **11 attributes** are annotated for each sequence.
 
-<img src="img/dataset+attribute.png" width="500" alt="dataset+attribute" />
+<img src="img/dataset+attribute.jpg" width="500" alt="dataset+attribute" />
 
 - The first row is from **a fixed camera** as the **third perspective**, while the second and third rows are from the **UAM onboard camera** as the **first perspective**. 
 - The red box and green circle denote the object and the onboard camera. 
