@@ -8,7 +8,7 @@
 
 - 📹 Demo of real-world vision-based UAM approaching tests.
 
-  <img src="../../../../../../Journal&Magazine/2022_TIE/code/SiamSA/img/UAM_approaching.gif" width="700" alt="" />
+  <img src="/img/UAM_approaching.gif" width="700" alt="" />
 
 - Refer to [SiamPSA](https://youtu.be/rkq188GhJ_A) and [SiamSA](https://youtu.be/Fi6kESBBpnk) on Youtube for more real-world tests.
 
@@ -20,7 +20,7 @@
 
 - **16** kinds of **objects** are involved, and **12 attributes** are annotated for each sequence, including aspect ratio change (ARC), background clutter (BC), fast motion (FM), low illumination (LI), object blur (OB), out-of-view (OV), partial occlusion (POC), similar object (SOB), scale variation (SV), **UAM attack (UAM-A)**, viewpoint change (VC), and **wind disturbance (WD)**.
 
-  <img src="../../../../../../Journal&Magazine/2022_TIE/code/SiamSA/img/dataset.png" width="700" alt="" />
+  <img src="/img/dataset.png" width="700" alt="" />
 
 - Scenes from both **first** (left) and **third** (right) perspectives in UAMT100 and UAMT20L. The first perspective is from the UAM onboard camera, while the third perspective is from a fixed camera. 
 
@@ -30,7 +30,7 @@
 
 ### 2.2 Scale variation difference between UAV and UAM tracking 
 
-<img src="../../../../../../Journal&Magazine/2022_TIE/code/SiamSA/img/SV.png" width="580" alt="" />
+<img src="/img/SV.png" width="580" alt="" />
 
 - $R$ denotes the degree of SV, which is measured by the ratio of the current object ground-truth bounding box area to the initial one. 
 - Generally, SV happens when $R$ is outside the range [0.5, 2], i.e., $|log_2(R)|>1$. The percentage of frames whose $|log_2(R)|$ is with a certain section is drawn as the SV plot, with an interval length of 0.1 over a range of 1 to 3. The proportion of $|log_2(R)|>3$ is relatively low and not of reference significance. 
