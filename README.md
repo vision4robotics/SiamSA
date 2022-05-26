@@ -39,7 +39,7 @@
 ### 2.3 Download and evaluation 
 
 - Download UAMT100 from [GoogleDrive](https://drive.google.com/file/d/1WD5sPkwqj7E63bDFQQsmCxLKP_CM_D1I/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1PBnlZEbgRVXYFxVWmzqtdw) (pw: v4ra).
-- Download UAMT20L from [GoogleDrive](https://drive.google.com/file/d/1-oZQ2k0o6uHfgfUym2XI1OWpVkqkCY_X/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1kfQy9r4JKihPHMbsoGEOLg?pwd=v4rf) (pw: v4rf).
+- Download UAMT20L from [GoogleDrive](https://drive.google.com/file/d/1o4BiGOLk6segF7kHLhGrhWxCbOKOarTA/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1RtKr2EVF2c6l6mkhli8kGg?pwd=v4ra) (pw: v4ra).
 - Download evaluation results (.mat) of SOTA trackers on UAMT100 from [GoogleDrive]() or [BaiduYun](https://pan.baidu.com/s/1OpXzu7FiXi3Mgn4i3K54Qw) (pw: v4rr).
 
 
