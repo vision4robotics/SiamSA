@@ -14,12 +14,12 @@ from glob import glob
 
 from pysot.core.config import cfg
 from pysot.models.model_builder import ModelBuilder
-from pysot.tracker.tracker import SiamPSATracker
+from pysot.tracker.tracker import SiamSATracker
 from pysot.utils.model_load import load_pretrain
 
 torch.set_num_threads(1)
 
-parser = argparse.ArgumentParser(description='SiamPSA demo')
+parser = argparse.ArgumentParser(description='SiamSA demo')
 parser.add_argument('--config', type=str, default='./experiments/config.yaml', help='config file')
 parser.add_argument('--snapshot', type=str, default='./snapshot/general_model.pth', help='model name')
 parser.add_argument('--video_name', default='./test_dataset/sequence_name', type=str, help='videos or image files')
@@ -68,7 +68,7 @@ def main():
     model = load_pretrain(model, args.snapshot).eval().to(device)
 
     # build tracker
-    tracker = SiamPSATracker(model, cfg.TRACK)
+    tracker = SiamSATracker(model, cfg.TRACK)
 
 
     first_frame = True

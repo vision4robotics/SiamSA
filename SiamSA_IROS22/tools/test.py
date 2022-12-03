@@ -13,20 +13,20 @@ import numpy as np
 import sys
 
 from pysot.models.model_builder import ModelBuilder
-from pysot.tracker.tracker import SiamPSATracker
+from pysot.tracker.tracker import SiamSATracker
 from pysot.utils.bbox import get_axis_aligned_bbox
 from pysot.utils.model_load import load_pretrain
 from toolkit.datasets import DatasetFactory
 from pysot.core.config import cfg
 
-parser = argparse.ArgumentParser(description='SiamPSA tracking')
+parser = argparse.ArgumentParser(description='SiamSA tracking')
 parser.add_argument('--dataset', default='UAMT100',type=str,
         help='datasets')
 parser.add_argument('--snapshot', default='./snapshot/model.pth', type=str,
         help='snapshot of models to eval')
 parser.add_argument('--config', default='./experiments/config.yaml', type=str,
         help='config file')
-parser.add_argument('--trackername', default='SiamPSA', type=str,
+parser.add_argument('--trackername', default='SiamSA', type=str,
         help='snapshot of models to eval')
 parser.add_argument('--video', default='', type=str,
         help='eval one special video')
@@ -41,7 +41,7 @@ def main():
     cfg.merge_from_file(args.config)
     model = ModelBuilder()
     model = load_pretrain(model, args.snapshot).cuda().eval()
-    tracker = SiamPSATracker(model)
+    tracker = SiamSATracker(model)
     cur_dir = os.path.dirname(os.path.realpath(__file__))
     dataset_root = os.path.join('./test_dataset', args.dataset)
 

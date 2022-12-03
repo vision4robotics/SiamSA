@@ -11,7 +11,7 @@ __C = CN()
 
 cfg = __C
 
-__C.META_ARC = "SiamPSA_alexnet"
+__C.META_ARC = "SiamSA_alexnet"
 
 __C.CUDA = True
 
@@ -243,7 +243,7 @@ __C.ANCHOR.STRIDE = 8
 # ------------------------------------------------------------------------ #
 __C.TRACK = CN()
 
-__C.TRACK.TYPE = 'SiamPSAtracker'
+__C.TRACK.TYPE = 'SiamSAtracker'
 
 # Scale penalty
 __C.TRACK.PENALTY_K = 0.079
