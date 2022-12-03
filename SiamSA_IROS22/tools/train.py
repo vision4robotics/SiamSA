@@ -37,7 +37,7 @@ from pysot.core.config import cfg
 
 
 logger = logging.getLogger('global')
-parser = argparse.ArgumentParser(description='SiamPSA tracking')
+parser = argparse.ArgumentParser(description='SiamSA tracking')
 parser.add_argument('--cfg', type=str, default='./experiments/config.yaml',
                     help='configuration of tracking')
 parser.add_argument('--seed', type=int, default=123456,

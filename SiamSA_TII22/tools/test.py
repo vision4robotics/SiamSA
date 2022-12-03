@@ -25,7 +25,7 @@ parser.add_argument('--snapshot', default='./snapshot/model_siamsa.pth', type=st
         help='snapshot of models to eval')
 parser.add_argument('--config', default='./experiments/config.yaml', type=str,
         help='config file')
-parser.add_argument('--trackername', default='SiamPSA', type=str,
+parser.add_argument('--trackername', default='SiamSA', type=str,
         help='snapshot of models to eval')
 parser.add_argument('--video', default='', type=str,
         help='eval one special video')
