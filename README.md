@@ -112,9 +112,33 @@ python eval.py 	                      \
 
   Once you get a model, you may want to test and evaluate its performance by following the above **3.2** and **3.3** instructions
 
+## 4. Cite SiamSA and UAM tracking benchmark
+
+If you find SiamSA and UAM tracking useful, please cite our work by using the following BibTeX entry:
+
+```latex
+@inproceedings{SiamSA2022IROS,
+ title={{Siamese Object Tracking for Vision-Based UAM Approaching with Pairwise Scale-Channel  Attention}},
+ author={Zheng, Guangze and Fu, Changhong and Ye, Junjie and Li, Bowen and Lu, Geng and Pan, Jia},
+ booktitle={Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+ pages={1-7},
+ year={2022}
+}
+```
+
+```latex
+@article {SiamSA2023TII,
+ title ={{Scale-Aware Siamese Object Tracking for Vision-Based UAM Approaching}},
+ journal = {IEEE Transactions on Industrial Informatics},
+ year = {2023},
+ author = {Zheng, Guangze and Fu, Changhong and Ye, Junjie and Li, Bowen and Lu, Geng and Pan, Jia},
+ pages = {1-12}
+}
+```
+
 ## Contact
 
-If you have any questions, please contact me.
+If you have any questions, don't hesitate to get in touch with me.
 
 Guangze Zheng
 
@@ -124,8 +148,8 @@ Homepage: [Guangze Zheng (george-zhuang.github.io)](https://george-zhuang.github
 
 ## Acknowledgement
 
-- The code is implemented based on [pysot](https://github.com/STVIR/pysot), [SiamAPN](https://github.com/vision4robotics/SiamAPN), and [SiamSE](https://github.com/ISosnovik/SiamSE). We would like to express our sincere thanks to the contributors. 
-- We would like to thank Ziang Cao for his advice on the code. 
+- The code is implemented based on [pysot](https://github.com/STVIR/pysot), [SiamAPN](https://github.com/vision4robotics/SiamAPN), and [SiamSE](https://github.com/ISosnovik/SiamSE). We want to express our sincere thanks to the contributors. 
+- We want to thank Ziang Cao for his advice on the code. 
 - We appreciate the help from Fuling Lin, Haobo Zuo, and Liangliang Yao. 
-- We would like to thank Kunhan Lu for his advice on TensorRT acceleration. 
+- We want to thank Kunhan Lu for his advice on TensorRT acceleration. 
 
