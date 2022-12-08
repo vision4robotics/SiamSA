@@ -121,7 +121,7 @@ If you find SiamSA and UAM tracking useful, please cite our work by using the fo
  title={{Siamese Object Tracking for Vision-Based UAM Approaching with Pairwise Scale-Channel  Attention}},
  author={Zheng, Guangze and Fu, Changhong and Ye, Junjie and Li, Bowen and Lu, Geng and Pan, Jia},
  booktitle={Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
- pages={1-7},
+ pages={10486-10492},
  year={2022}
 }
 ```
