@@ -1,4 +1,4 @@
-<img src="/img/UAM_approaching.gif" width="700" alt="" />
+<img src="/img/UAM_approaching.gif" width="800" alt="" />
 
 *Official code for our work on UAM object tracking*:
 
@@ -42,8 +42,7 @@ Please refer to our project page, papers, dataset, and videos for more details.
 ### 2.3 Download and evaluation 
 
 - Please download the dataset from our [project page](https://george-zhuang.github.io/siamsa/).
-- You can directly download our evaluation results (.mat) of SOTA trackers on the UAMT benchmark from [GoogleDrive](https://drive.google.com/file/d/18IUT9Yu7Oai62IE6AYSfWOy3XUEvzzqc/view?usp=sharin
-  g) or [BaiduYun](https://pan.baidu.com/s/1OpXzu7FiXi3Mgn4i3K54Qw?pwd=v4rr).
+- You can directly download our evaluation results (.mat) of SOTA trackers on the UAMT benchmark from [GoogleDrive](https://drive.google.com/file/d/18IUT9Yu7Oai62IE6AYSfWOy3XUEvzzqc/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1OpXzu7FiXi3Mgn4i3K54Qw?pwd=v4rr).
 
 ## 3. Get started!
 
@@ -88,9 +87,8 @@ python eval.py 	                      \
 
 ### 3.4 Train
 
-- Download pretrained backbone from [GoogleDrive](https://drive.google.com/file/d/1Lv9HbABSNYBNetT4_3qSzDlJc0wuiAYm/view?usp=shari
-ng) or [BaiduYun](https://pan.baidu.com/s/1qA_cFpzahUahravBrTg-cg?pwd=v4rc) and put it into `pretrained_models` directory.
-  
+- Download pretrained backbone from [GoogleDrive](https://drive.google.com/file/d/1Lv9HbABSNYBNetT4_3qSzDlJc0wuiAYm/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1qA_cFpzahUahravBrTg-cg?pwd=v4rc) and put it into `pretrained_models` directory.
+
 - #### Prepare training datasets
 
   Download the datasets：
