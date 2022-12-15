@@ -1,4 +1,4 @@
-<img src="/img/UAM_approaching.gif" width="700" alt="" />
+<img src="/img/UAM_approaching.gif" width="800" alt="" />
 
 *Official code for our work on UAM object tracking*:
 
@@ -13,9 +13,7 @@
 
 Please refer to our project page, papers, dataset, and videos for more details.
 
-:newspaper:[[Project page]](https://george-zhuang.github.io/siamsa/)  :page_facing_up:[[IROS Paper]](https://arxiv.org/abs/2211.14564)  :books:[[UAM Tracking Dataset]](https://george-zhuang.github.io/siamsa/)  :movie_camera: [[TII Demo]](https://www.youtube.com/watch?v=Fi6kESBBpnk)  :movie_camera: [[IROS Presentation]](https://www.youtube.com/watch?v=FS1tJolGGV8)
-
-*Paper of TII-version coming soon...*
+:newspaper:[[Project page]](https://george-zhuang.github.io/siamsa/)  :page_facing_up:[[TII Paper]]([Scale-Aware Siamese Object Tracking for Vision-Based UAM Approaching | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/9980457))  :page_facing_up:[[IROS Paper]](https://arxiv.org/abs/2211.14564)  :books:[[UAM Tracking Dataset]](https://george-zhuang.github.io/siamsa/)  :movie_camera: [[TII Demo]](https://www.youtube.com/watch?v=Fi6kESBBpnk)  :movie_camera: [[IROS Presentation]](https://www.youtube.com/watch?v=FS1tJolGGV8)
 
 ## 2. UAMT100&UAMT20L benchmark
 
@@ -42,8 +40,7 @@ Please refer to our project page, papers, dataset, and videos for more details.
 ### 2.3 Download and evaluation 
 
 - Please download the dataset from our [project page](https://george-zhuang.github.io/siamsa/).
-- You can directly download our evaluation results (.mat) of SOTA trackers on the UAMT benchmark from [GoogleDrive](https://drive.google.com/file/d/18IUT9Yu7Oai62IE6AYSfWOy3XUEvzzqc/view?usp=sharin
-  g) or [BaiduYun](https://pan.baidu.com/s/1OpXzu7FiXi3Mgn4i3K54Qw?pwd=v4rr).
+- You can directly download our evaluation results (.mat) of SOTA trackers on the UAMT benchmark from [GoogleDrive](https://drive.google.com/file/d/18IUT9Yu7Oai62IE6AYSfWOy3XUEvzzqc/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1OpXzu7FiXi3Mgn4i3K54Qw?pwd=v4rr).
 
 ## 3. Get started!
 
@@ -88,9 +85,8 @@ python eval.py 	                      \
 
 ### 3.4 Train
 
-- Download pretrained backbone from [GoogleDrive](https://drive.google.com/file/d/1Lv9HbABSNYBNetT4_3qSzDlJc0wuiAYm/view?usp=shari
-ng) or [BaiduYun](https://pan.baidu.com/s/1qA_cFpzahUahravBrTg-cg?pwd=v4rc) and put it into `pretrained_models` directory.
-  
+- Download pretrained backbone from [GoogleDrive](https://drive.google.com/file/d/1Lv9HbABSNYBNetT4_3qSzDlJc0wuiAYm/view?usp=sharing) or [BaiduYun](https://pan.baidu.com/s/1qA_cFpzahUahravBrTg-cg?pwd=v4rc) and put it into `pretrained_models` directory.
+
 - #### Prepare training datasets
 
   Download the datasets：
@@ -114,9 +110,33 @@ ng) or [BaiduYun](https://pan.baidu.com/s/1qA_cFpzahUahravBrTg-cg?pwd=v4rc) and 
 
   Once you get a model, you may want to test and evaluate its performance by following the above **3.2** and **3.3** instructions
 
+## 4. Cite SiamSA and UAM tracking benchmark
+
+If you find SiamSA and UAM tracking useful, please cite our work by using the following BibTeX entry:
+
+```latex
+@inproceedings{SiamSA2022IROS,
+ title={{Siamese Object Tracking for Vision-Based UAM Approaching with Pairwise Scale-Channel  Attention}},
+ author={Zheng, Guangze and Fu, Changhong and Ye, Junjie and Li, Bowen and Lu, Geng and Pan, Jia},
+ booktitle={Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+ pages={10486-10492},
+ year={2022}
+}
+```
+
+```latex
+@article {SiamSA2023TII,
+ title ={{Scale-Aware Siamese Object Tracking for Vision-Based UAM Approaching}},
+ journal = {IEEE Transactions on Industrial Informatics},
+ year = {2023},
+ author = {Zheng, Guangze and Fu, Changhong and Ye, Junjie and Li, Bowen and Lu, Geng and Pan, Jia},
+ pages = {1-12}
+}
+```
+
 ## Contact
 
-If you have any questions, please contact me.
+If you have any questions, don't hesitate to get in touch with me.
 
 Guangze Zheng
 
@@ -126,8 +146,8 @@ Homepage: [Guangze Zheng (george-zhuang.github.io)](https://george-zhuang.github
 
 ## Acknowledgement
 
-- The code is implemented based on [pysot](https://github.com/STVIR/pysot), [SiamAPN](https://github.com/vision4robotics/SiamAPN), and [SiamSE](https://github.com/ISosnovik/SiamSE). We would like to express our sincere thanks to the contributors. 
-- We would like to thank Ziang Cao for his advice on the code. 
+- The code is implemented based on [pysot](https://github.com/STVIR/pysot), [SiamAPN](https://github.com/vision4robotics/SiamAPN), and [SiamSE](https://github.com/ISosnovik/SiamSE). We want to express our sincere thanks to the contributors. 
+- We want to thank Ziang Cao for his advice on the code. 
 - We appreciate the help from Fuling Lin, Haobo Zuo, and Liangliang Yao. 
-- We would like to thank Kunhan Lu for his advice on TensorRT acceleration. 
+- We want to thank Kunhan Lu for his advice on TensorRT acceleration. 
 
