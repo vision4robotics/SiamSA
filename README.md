@@ -13,7 +13,7 @@
 
 Please refer to our project page, papers, dataset, and videos for more details.
 
-:newspaper:[[Project page]](https://george-zhuang.github.io/siamsa/)  :page_facing_up:[[TII Paper]]([Scale-Aware Siamese Object Tracking for Vision-Based UAM Approaching | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/9980457))  :page_facing_up:[[IROS Paper]](https://arxiv.org/abs/2211.14564)  :books:[[UAM Tracking Dataset]](https://george-zhuang.github.io/siamsa/)  :movie_camera: [[TII Demo]](https://www.youtube.com/watch?v=Fi6kESBBpnk)  :movie_camera: [[IROS Presentation]](https://www.youtube.com/watch?v=FS1tJolGGV8)
+:newspaper:[[Project page]](https://george-zhuang.github.io/siamsa/)  :page_facing_up:[[TII Paper]](https://ieeexplore.ieee.org/document/9980457)  :page_facing_up:[[IROS Paper]](https://arxiv.org/abs/2211.14564)  :books:[[UAM Tracking Dataset]](https://george-zhuang.github.io/siamsa/)  :movie_camera: [[TII Demo]](https://www.youtube.com/watch?v=Fi6kESBBpnk)  :movie_camera: [[IROS Presentation]](https://www.youtube.com/watch?v=FS1tJolGGV8)
 
 ## 2. UAMT100&UAMT20L benchmark
 
